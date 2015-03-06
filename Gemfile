@@ -41,6 +41,9 @@ end
 # Use Devise for authentication: https://github.com/plataformatec/devise#getting-started
 gem 'devise'
 
+# Bootstrap 
+gem 'bootstrap-sass', '3.2.0.0'
+
 group :development, :test do
   # Use RSpec for testing: https://github.com/rspec/rspec-rails
   gem 'rspec-rails', '~> 2.0'
